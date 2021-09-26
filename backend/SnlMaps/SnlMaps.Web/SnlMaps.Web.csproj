@@ -29,8 +29,4 @@
         <ProjectReference Include="..\SnlMaps.Core\SnlMaps.Core.csproj" />
     </ItemGroup>
 
-    <ItemGroup>
-      <Content Include="Properties\launchSettings.json" />
-    </ItemGroup>
-
 </Project>
