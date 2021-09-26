@@ -18,4 +18,4 @@ jobs:
           angular_project_dir: frontend
           base_href: /snl-map/
           deploy_branch: gh-pages
-          angular_dist_build_folder: dist/snl-map
+          angular_dist_build_folder: frontend/dist/snl-map
