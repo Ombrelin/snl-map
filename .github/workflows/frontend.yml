@@ -15,7 +15,7 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: '14'
-      - run: npm install
+      - run: cd frontend && npm install
 
       - name: Publish to gh pages
-        run: ng deploy --base-href=/snl-map/
+        run: cd frontend && ng deploy --base-href=/snl-map/
