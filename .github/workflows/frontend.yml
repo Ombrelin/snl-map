@@ -1,4 +1,4 @@
-name: dotnet Build and Test + Deploy to Docker Hub
+name: Build angular app + Deploy to github pages
 
 on:
   push:
