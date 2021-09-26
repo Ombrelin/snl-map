@@ -1,0 +1,26 @@
+<mat-card>
+
+  <h2>Chercher une ville</h2>
+
+  <mat-form-field appearance="fill" class="example-full-width">
+    <mat-spinner *ngIf="searchCityCommand.isExecuting" diameter="16"></mat-spinner>
+    <mat-label>Ville</mat-label>
+    <input (keyup)="handleChange($event)"
+           [(ngModel)]="keyword"
+           [matAutocomplete]="auto"
+           aria-label="Number"
+           matInput
+           placeholder="Renseignez le nom de la ville"
+           type="text">
+    <mat-autocomplete #auto="matAutocomplete">
+      <mat-option *ngFor="let option of searchResult" [value]="option">
+        {{option}}
+      </mat-option>
+    </mat-autocomplete>
+  </mat-form-field>
+
+  <button [disabled]="!searchButtonEnabled" [ssvCommand]="fetchCityCommand" color="primary" mat-raised-button>Chercher
+  </button>
+  <!--*ngIf="!fetchCityCommand.isExecuting"-->
+  <!--<mat-spinner diameter="16" *ngIf="fetchCityCommand.isExecuting"></mat-spinner>-->
+</mat-card>

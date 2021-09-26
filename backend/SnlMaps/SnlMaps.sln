@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnlMaps.Core", "SnlMaps.Core\SnlMaps.Core.csproj", "{D229C77A-6DDA-42E9-9AFA-552E91C6C453}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnlMaps.Web", "SnlMaps.Web\SnlMaps.Web.csproj", "{19CCA69B-01E0-4F31-9149-B9A580A0128E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnlMaps.Web.Tests", "SnlMaps.Web.Tests\SnlMaps.Web.Tests.csproj", "{8D73CB45-35E5-4703-A253-FEE8401F813A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D229C77A-6DDA-42E9-9AFA-552E91C6C453}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D229C77A-6DDA-42E9-9AFA-552E91C6C453}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D229C77A-6DDA-42E9-9AFA-552E91C6C453}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D229C77A-6DDA-42E9-9AFA-552E91C6C453}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19CCA69B-01E0-4F31-9149-B9A580A0128E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19CCA69B-01E0-4F31-9149-B9A580A0128E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19CCA69B-01E0-4F31-9149-B9A580A0128E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19CCA69B-01E0-4F31-9149-B9A580A0128E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D73CB45-35E5-4703-A253-FEE8401F813A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D73CB45-35E5-4703-A253-FEE8401F813A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D73CB45-35E5-4703-A253-FEE8401F813A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D73CB45-35E5-4703-A253-FEE8401F813A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

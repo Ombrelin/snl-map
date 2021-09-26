@@ -1,0 +1,18 @@
+<h2 mat-dialog-title>Informations</h2>
+<mat-dialog-content>
+
+  <h3>Données utilisées :</h3>
+  <ul>
+    <li>Bilan 2020 Loi Solidarité Renouvellement Urbain</li>
+    <li>Zonage fonction de la tension du marché immobilier</li>
+    <li>Population 2015 ?</li>
+    <li>Logements sociaux 2020 (RPLS)</li>
+    <li>Temps et trajet en transports en commun vers/depuis Paris Chatelet STIF 2020</li>
+  </ul>
+
+</mat-dialog-content>
+<mat-dialog-actions>
+  <button mat-button mat-dialog-close>Fermer</button>
+  <button (click)="handleClickKnowMore()" color="accent" mat-raised-button>En savoir plus sur SNL</button>
+  <button (click)="handleClickInvest()" color="accent" mat-raised-button>Investir utile et solidaire avec SNL</button>
+</mat-dialog-actions>

@@ -1,0 +1,15 @@
+<mat-card *ngIf="city">
+  <h2>{{city.name}}</h2>
+
+  <mat-list>
+    <mat-list-item>Population : {{city.population}}</mat-list-item>
+    <mat-list-item>Logement sociaux : {{city.socialHousingCount}}</mat-list-item>
+    <mat-list-item>Logements SNL : {{city.snlHousingCount}}</mat-list-item>
+    <mat-list-item>Code Postal : {{city.postCode}}</mat-list-item>
+  </mat-list>
+</mat-card>
+
+<div *ngIf="fetchCityDetailsByCoordCommand.isExecuting" class="spinner-wrapper">
+  <mat-spinner diameter="32"></mat-spinner>
+</div>
+

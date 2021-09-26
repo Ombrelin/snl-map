@@ -1,0 +1,33 @@
+<mat-toolbar color="primary">
+  <span>SNL Maps</span>
+  <button (click)="handleClickAbout()" class="about-btn" color="accent" mat-raised-button>A propos</button>
+</mat-toolbar>
+<div class="map-container">
+  <div class="map-commands">
+
+    <div class="logo-snl">
+      <img alt="Logo SNL" src="https://investirsolidaire.fr/images/logo_SNL.PNG">
+    </div>
+    <mat-card>
+      <h2>Légende</h2>
+      <ul class="legend-list">
+        <li><span class="legend sru-legend"></span>
+          Communes en carence de logements sociaux
+        </li>
+      </ul>
+    </mat-card>
+    <app-city-search (searchCityEvent)="handleSearchCityByName($event)"></app-city-search>
+    <app-city-detail [coordinates]="selectedCoordinates" [selectedCity]="selectedCity"></app-city-detail>
+
+
+  </div>
+  <div (leafletClick)="onMapClick($event)"
+       (leafletMapReady)="onMapReady($event)"
+       [leafletLayers]="layers"
+       [leafletOptions]="options"
+       class="map"
+       leaflet
+       style="height: 100vh;">
+  </div>
+</div>
+

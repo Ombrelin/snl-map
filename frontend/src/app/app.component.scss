@@ -1,0 +1,90 @@
+.map {
+  //z-index: -1;
+  width: 100%;
+}
+
+.map-commands {
+  width: 20vw;
+  box-shadow: 4px 0px 8px -4px #000000;
+  z-index: 1000;
+  height: 83.5vh;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  align-items: center;
+  height: 83.5vh;
+  overflow-x: scroll;
+}
+
+.map-commands mat-card h2 {
+  text-align: center;
+}
+
+.map-container {
+  display: flex;
+  height: 83.5vh;
+
+}
+
+.legend {
+  border-style: solid;
+  border-width: 4px;
+  width: 2rem;
+  height: 1rem;
+}
+
+.sru-legend {
+  border-color: #D50000;
+  background: #F7CCCC;
+}
+
+.legend-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.legend-list li {
+  display: flex;
+  column-gap: 1rem;
+  align-items: center;
+}
+
+
+.logo-snl {
+  height: 6rem;
+  display: flex;
+  justify-content: center;
+}
+
+.logo-snl img {
+  height: 100%;
+  width: auto;
+}
+
+mat-toolbar {
+  z-index: 1000;
+  box-shadow: 0px -1px 9px 1px #000000;
+  display: flex;
+  justify-content: space-between;
+  height: 8vh;
+}
+
+@media only screen and (max-width: 768px) {
+  .map-container {
+    flex-direction: column;
+  }
+
+  .map {
+    height: 90vh !important;
+  }
+
+  .map-commands {
+    width: 83vw;
+  }
+}
+
+.about-btn {
+  width: 8rem;
+  color: white;
+}
