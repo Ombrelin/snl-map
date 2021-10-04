@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnlMaps.Web", "SnlMaps.Web\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnlMaps.Web.Tests", "SnlMaps.Web.Tests\SnlMaps.Web.Tests.csproj", "{8D73CB45-35E5-4703-A253-FEE8401F813A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnlMaps.Core.Tests", "SnlMaps.Core.Tests\SnlMaps.Core.Tests.csproj", "{B6B79F1A-CC6E-4B8A-BA65-075B7DE9C088}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{8D73CB45-35E5-4703-A253-FEE8401F813A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8D73CB45-35E5-4703-A253-FEE8401F813A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8D73CB45-35E5-4703-A253-FEE8401F813A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6B79F1A-CC6E-4B8A-BA65-075B7DE9C088}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6B79F1A-CC6E-4B8A-BA65-075B7DE9C088}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6B79F1A-CC6E-4B8A-BA65-075B7DE9C088}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6B79F1A-CC6E-4B8A-BA65-075B7DE9C088}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
